@@ -1,0 +1,60 @@
+/* ========== START Dark Mode Colors ========== */
+:root {
+    --primary: #131516;
+    --secondary: #2B2F31;
+    --text: #d8d4cf;
+    --blue: #004daa;
+    --caption: #e8e6e3;
+}
+/* ========== END Dark Mode Colors ========== */
+/* ========== START CSS Reset ========== */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+/* ========== END CSS Reset ========== */
+
+
+@import 'https://fonts.googleapis.com/css?family=Rubik+One';
+
+.fullscreen {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.percentage {
+  font-family: 'Rubik One', sans-serif;
+  font-size: 5em;
+  color: #2ecc71;
+  mix-blend-mode: multiply;
+}
+
+.loadingbar {
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  background-color: #27ae60;
+  top: 0;
+  left: 0;
+  position: absolute;
+}
+
+

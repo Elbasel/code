@@ -1,0 +1,17 @@
+body {
+    display: flex;
+    height: 100vh;
+}
+
+
+.container {
+    margin: auto;
+    padding: 16px;
+    background-color: saddlebrown;
+}
+
+.hello {
+    background-color: royalblue;
+    padding: 16px;
+    font-size: 64px;;
+}

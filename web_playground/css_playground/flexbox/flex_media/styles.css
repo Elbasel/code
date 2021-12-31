@@ -1,0 +1,48 @@
+body {
+    padding: 10px;
+    width: 250px;
+    margin: auto;
+}
+
+.media {
+    align-items: flex-start;
+    padding: 5px;
+    border-radius: 25px;
+    background-color: rgb(255, 255, 255);
+    background-color: rgb(19, 19, 29);
+    border: 1px solid black;
+    display: flex;
+    gap: 5px;
+}
+
+
+
+.name {
+    margin-left: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+.image {
+    border-radius: 40%;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin: 0;
+}
+
+.content {
+    font-size: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    flex: 1;
+}
+
+.image img {
+    width: 30px;
+    margin: 0;
+    padding: 0;
+}
+

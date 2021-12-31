@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+main {
+    margin: auto;
+}
+
+#color-picker-div {
+    background-color: royalblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input[type="color"] {
+    opacity: 0;
+}

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+main {
+    margin: auto;
+}
+
+
+input[type="color"] {
+    width: 300px;
+    height: 300px;
+
+    border: 5px solid white;
+}
+
+input[type="color"]::-webkit-color-swatch {
+    border: 5px solid green;
+    border-radius: 50%;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+    border: 1px solid blue;
+}

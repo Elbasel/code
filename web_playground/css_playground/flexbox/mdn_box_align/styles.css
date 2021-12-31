@@ -1,0 +1,17 @@
+.box {
+    display: grid;
+    width: 540px;
+    grid-template-columns: 120px 120px 120px;
+    align-items: start;
+    justify-content: space-between;
+    border: 1px solid black;
+  }
+
+  div {
+      border: 1px solid red;    
+  }
+  
+  .box :first-child {
+      /* align-self: center; */
+  }
+        

@@ -1,0 +1,25 @@
+nav {
+    border: 1px solid rgb(138, 93, 93);
+    width: 500px;
+    margin: auto;
+}
+
+nav ul {
+    /* margin: 0; */
+    padding: 0;
+    border: 1px solid red;
+    display: flex;
+    margin-left: -12px;
+    margin-right: -12px;
+  }
+  nav li {
+      list-style: none;
+      border: 1px solid grey;
+      padding: 5px;
+      background-color: lightgray;
+      margin: 0 10px;
+  }
+  .push-right {
+    margin-left: auto;
+  }
+        
